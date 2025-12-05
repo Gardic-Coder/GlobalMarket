@@ -27,9 +27,9 @@ Sigue estos pasos para levantar el entorno del proyecto en tu propio clúster de
 ### 1. Ingesta de Datos
 Los datos iniciales se encuentran en la carpeta Colecciones/. Utiliza mongoimport o MongoDB Compass para cargar los archivos JSON en tu base de datos.
 
-* clientes.json -> Colección: clientes
-* ordenes.json -> Colección: ordenes
-* productos.json -> Colección: productos
+* GlobalMarketDB.Clientes.json -> Colección: clientes
+* GlobalMarketDB.Ordenes.json -> Colección: ordenes
+* GlobalMarketDB.Productos.json -> Colección: productos
 
 ### 2. Aplicación de Validaciones
 Para asegurar la integridad de los datos, aplica las reglas definidas en la carpeta Validations/.
