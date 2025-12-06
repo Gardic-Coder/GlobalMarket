@@ -17,7 +17,8 @@ Este proyecto consiste en la migración y optimización del catálogo de product
 ```text
 ├── Colecciones/       # Archivos .json con la data cruda (Clientes, Ordenes, Productos)
 ├── Validations/       # Scripts de reglas de validación (Schema Validation) para Atlas
-├── aggregations/      # Pipelines de agregación exportados (formato Shell)
+├── Aggregations/      # Pipelines de agregación exportados (formato Shell)
+├── Indexes/           # Script de los indices y JSON del Atlas Search
 └── README.md          # Documentación del proyecto
 ```
 
